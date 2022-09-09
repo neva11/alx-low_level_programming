@@ -5,9 +5,8 @@
 /**
  * main - Entry point.
  *
- * Return : Alaways 0 (Success).
+ * Return: Alaways 0.
 */
-
 int main(void)
 {
 	int n;
