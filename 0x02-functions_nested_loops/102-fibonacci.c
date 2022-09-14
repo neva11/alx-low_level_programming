@@ -18,6 +18,7 @@ int main(void)
 	{
 		actual = i + previous;
 		printf(", %u", actual);
+		i++;
 	}
 	printf("\n");
 	return (0);
