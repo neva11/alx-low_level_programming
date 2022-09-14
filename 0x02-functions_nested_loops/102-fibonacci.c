@@ -16,7 +16,8 @@ int main(void)
 
 	while (i < 50)
 	{
-		actual = i + previous;
+		actual = actual + previous;
+		previous = actual - previous;
 		printf(", %u", actual);
 		i++;
 	}
