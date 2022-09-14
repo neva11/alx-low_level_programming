@@ -12,12 +12,12 @@ int main(void)
 	unsigned int previous = 1;
 	int i = 1;
 	
-	printf("%lu", previous);
+	printf("%u", previous);
 
 	while (i < 50)
 	{
 		actual = i + previous;
-		printf(", %lu", actual);
+		printf(", %u", actual);
 	}
 	printf("\n");
 	return (0);
