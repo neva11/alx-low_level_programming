@@ -8,17 +8,17 @@
 */
 int main(void)
 {
-	unsigned int actual = 0;
-	unsigned int previous = 1;
+	unsigned long int actual = 1;
+	unsigned long int previous = 1;
 	int i = 1;
 	
-	printf("%u", previous);
+	printf("%lu", previous);
 
 	while (i < 50)
 	{
 		actual = actual + previous;
 		previous = actual - previous;
-		printf(", %u", actual);
+		printf(", %lu", actual);
 		i++;
 	}
 	printf("\n");
