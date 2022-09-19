@@ -14,4 +14,6 @@ size_t _strlen(const char *s);
 
 void _puts(char *str);
 
+void rev_string(char *s);
+
 #endif
