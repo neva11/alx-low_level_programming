@@ -1,0 +1,1 @@
+ALX C project tasks about pointers, strings and arrays
