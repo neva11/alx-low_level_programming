@@ -1,0 +1,2 @@
+0x07-poin
+ters_arrays_strings
